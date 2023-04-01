@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap');
+img {
+    width: 100%;
+  }
+html {
+	font:91%/1.3em Montserrat, Arial, sans-serif;
+    text-align: center;
+}
+body{
+    background-image: url("../tp-3/assets/images/question-background.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    margin-top: 5rem;
+}
+.invalid{
+    border-color: rgb(192, 88, 19);
+    border-width: 2px;
+    color : rgb(192, 88, 19);
+}
+input{
+    margin-bottom: 2rem;
+    border-radius: 4px;
+}
+img {
+    width: 150px;
+    margin-left: -1.5rem;
+}
+.btnform {
+        width: 150px;
+        height: auto;
+        background-color: black;
+        color: #ffff;
+        border-radius: 5px;
+        padding: 5px;
+}
+.btnform:hover {
+    background-color: #fff;
+    color: black;
+}
+.btn {
+    font-size: 50px;
+    font-weight: 500;
+    width: 120px;
+    height: 170px!important;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+div#jeu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+label {
+    font-weight: 600;
+}
+.msg{
+    visibility: hidden;
+}
