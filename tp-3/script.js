@@ -60,14 +60,14 @@ function changerTemps () {
  */
 function perdu () {
   alert('Vous avez perdu !')
-  window.location.href = 'http://127.0.0.1:5501/tp-3/index.html'
+  window.location.href = 'http://127.0.0.1:5500/tp-3/index.html'
 }
 /**
  * It displays an alert message and then reloads the page
  */
 function gagne () {
   alert('Vous avez gagné !')
-  window.location.href = 'http://127.0.0.1:5501/tp-3/index.html'
+  window.location.href = 'http://127.0.0.1:5500/tp-3/index.html'
 }
 // Function pour créer les pairs de cartes du jeu
 function creerCartes () {
